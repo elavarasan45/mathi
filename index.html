@@ -21,11 +21,35 @@ h1{
   transform: translate(-50%, -50%);
 }
 
+progress {
+  border: none;
+  width: 400px;
+  height: 25px;
+  background: crimson;
+}
+
+progress {
+  color: rgb(50, 149, 182);
+}
+
+progress::-webkit-progress-value {
+  background: rgb(50, 149, 182);
+}
+
+progress::-moz-progress-bar {
+  background: rgb(50, 149, 182);
+}
+
 </style>
 </head>
 <body style="background-image: url('pexels-hasan-albari-1229861.jpg');">
 
-<h1 class="center">We're Coming soon </h1>
+  <div class="center">
+    <h1 >Work in progress... </h1>
+
+       <progress id="file" value="10" max="100"> 10% </progress>
+  </div>
+
 
 
 
